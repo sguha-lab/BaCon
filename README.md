@@ -20,5 +20,5 @@ Before running "main.R," we need to set the runtime parameters that are passed t
   
   n:          number of individuals
   
-  true.r.v:   for each simulation replication, vector of true concordance parameters, \\
+  true.r.v:   for each simulation replication, vector of true concordance parameters, \n
               e.g. in Section 4.1 of the paper, true.r.v = c(.875,.925,.975)
