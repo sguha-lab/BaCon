@@ -8,17 +8,18 @@ Run "main.R" to
   (a) Simulate n by p datasets having the same structure as the motivating connectome dataset, MRN-114
   (b) Analyze the data using the BaCon methodology 
   
-Before running "main.R" the runtime parameters of function fn.simulation need to be set. These runtime parameters are
+Before running "main.R," we need to set the runtime parameters that are passed to function fn.simulation:
 
   n.burn:     number of burnin MCMC samples
   
-  n.postburn: number of burnin MCMC samples
+  n.postburn: number of post-burnin MCMC samples
   
-  num.reps:   required number of independent sets of artifical datasets to be generated and analyzed
+  num.reps:   number of independent replications of the simulation 
   
   p:          number of predictors (representing brain region pairs as potential predictors)
   
   n:          number of individuals
   
-  true.r.v:   vector of true concordance parameters, e.g. in Section 4.1 of the paper, true.r.v = c(.875,.925,.975)
+  true.r.v:   for each simulation replication, vector of true concordance parameters, 
+              e.g. in Section 4.1 of the paper, true.r.v = c(.875,.925,.975)
   
