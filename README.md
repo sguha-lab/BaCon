@@ -1,6 +1,6 @@
 # BaCon
 
-R code for the Bayesian Connectomics (BaCon) model class, 
+R code for generating simulated data and fitting the Bayesian Connectomics (BaCon) model class,
 developed in "Predicting Phenotypes from Brain Connection Structure"
 by Subha Guha, Rex Jung, and David Dunson (2019)
 
