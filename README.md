@@ -2,7 +2,7 @@
 
 R code for generating simulated data and fitting the Bayesian Connectomics (BaCon) model class,
 developed in "Predicting Phenotypes from Brain Connection Structure"
-by Subha Guha, Rex Jung, and David Dunson (2019)
+by Subha Guha, Rex Jung, and David Dunson (2021)
 
 Run "main.R". This achieves two aims: 
   (a) Simulates n by p datasets having the same structure as the motivating connectome dataset, MRN-114
